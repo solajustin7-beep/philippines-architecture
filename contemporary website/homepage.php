@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Philippine Contemporary Architecture</title>
+  <title>Philippines Contemporary Architecture</title>
   <style>
 
     /* Basic Reset */
@@ -24,21 +24,28 @@
 
     /* Header styles */
     header {
-      background-color: #transparent;
+      background-image: url(3b.jpg);
+      background-size: cover;
       padding: 20px;
       color: black;
       position: sticky;
       top: 0;
       z-index: 1000;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+
     }
 
     header h1 {
       margin-bottom: 10px;
+      font-family: Franklin Gothic Heavy;
+      font-size: 50px;
     }
 
     nav {
       margin-top: 10px;
+    }
+    p{
+      color: black;
     }
 
     nav a {
@@ -81,7 +88,7 @@
     }
 
     .gallery-item:hover {
-      transform: scale(1.02);
+      transform: scale(1.10);
     }
 
     .gallery-item img {
@@ -129,13 +136,15 @@
 </head>
 <body>
   <header>
-    <h1>Philippine Contemporary Architecture</h1>
+    <h1>Philippines Contemporary Architecture</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#designs">Designs</a>
       <a href="#project1">The Mind Museum</a>
       <a href="#project2">Natural History Museum</a>
       <a href="#project3">SOLAire Resort</a>
+      <a href="#project4">New Clark City Aquatic Stadium</a>
+      <a href="#project5">Mactan Cebu International Airport</a>
     </nav>
   </header>
 
@@ -157,14 +166,22 @@
         <a href="#project3"><img src="3.jpeg" alt="SOLAire Resort" /></a>
         <h3>SOLAire Resort</h3>
       </div>
+      <div class="gallery-item">
+        <a href="#project4"><img src="1.jpg.webp" alt="New Clark City Aquatic Stadium" /></a>
+        <h3>New Clark City Aquatic Stadium</h3>
+      </div>
+      <div class="gallery-item">
+        <a href="#project5"><img src="2.jpg.webp" alt="Mactan Cebu International Airport" /></a>
+        <h3>Mactan Cebu International Airport</h3>
+      </div>
     </div>
   </section>
 
   <!-- Project 1: The Mind Museum -->
   <section id="project1" class="container">
     <div class="project-details">
-      <h2>The Mind Museum, Taguig</h2>
       <img src="1.jpg" alt="The Mind Museum" style="width:100%; border-radius:8px; margin-bottom:15px;">
+       <h2>The Mind Museum, Taguig</h2>
       <h3>Overview</h3>
       <p>The Mind Museum in Taguig is a leading example of modern Philippine architecture, emphasizing sustainability, innovation, and educational engagement. Designed by Cottera & Partners, it features extensive use of glass, open spaces, and eco-friendly materials.</p>
       <h3>Architect & Year</h3>
@@ -181,8 +198,9 @@
   <!-- Project 2: Natural History Museum -->
   <section id="project2" class="container">
     <div class="project-details">
-      <h2>National Museum of Natural History</h2>
-      <img src="2.jpg" alt="Natural History Museum" style="width:100%; border-radius:8px; margin-bottom:15px;">
+  
+      <img src="2.jpg" alt="National History Museum" style="width:100%; border-radius:8px; margin-bottom:15px;">
+       <h2>National History Museum</h2>
       <h3>Overview</h3>
       <p>This eco-friendly museum in Manila features vertical gardens and sustainable materials, emphasizing conservation and environmental awareness. It was designed to blend modernity with ecological principles.</p>
       <h3>Architect & Year</h3>
@@ -199,8 +217,9 @@
   <!-- Project 3: Solaire Resort -->
   <section id="project3" class="container">
     <div class="project-details">
-      <h2>SOLAire Resort & Casino, Parañaque</h2>
+     
       <img src="3.jpeg" alt="SOLAire Resort" style="width:100%; border-radius:8px; margin-bottom:15px;">
+      <h2>SOLAire Resort & Casino, Parañaque</h2>
       <h3>Overview</h3>
       <p>A luxurious resort with a sleek, modern aesthetic, Solaire combines high-tech design with Filipino hospitality. It showcases contemporary architecture with extensive use of glass and steel.</p>
       <h3>Architect & Year</h3>
@@ -210,6 +229,44 @@
         <li>High-tech design and smart features</li>
         <li>Extensive glass facades</li>
         <li>Luxurious interior and exterior design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="project4" class="container">
+    <div class="project-details">
+     
+      <img src="1.jpg.webp" alt="SOLAire Resort" style="width:100%; border-radius:8px; margin-bottom:15px;">
+      <h2>New Clark City Aquatic Stadium</h2>
+      <h3>Overview</h3>
+      <p>The New Clark City Aquatic Center is a swimming and diving facility located in Capas, Tarlac, Philippines. It hosted the aquatics events of the 2019 Southeast Asian Games and will host the Asian Swimming Championships in 2023.
+
+The Aquatics Center’s design resembles the baklad, a traditional Filipino fish trap, Filipino weaving, and woodwork, and it features a bamboo color scheme. The design consists of a large open shed with a colorful roof made of capiz coating, similar to a parol. Polytetrafluoroethylene (PTFE) will serve as roofing. The PTFE roofing is a lightweight, durable, and weather-resistant fiberglass material, resembling the capiz windows used in old Philippine houses during the day and an illuminated parol at night.</p>
+      <h3>Architect & Year</h3>
+      <p>Royal Pineda, 2019.</p>
+      <h3>Features</h3>
+      <ul>
+        <li>the 20,000-seat stadium</li>
+        <li>view of the studio</li>
+        <li>Luxurious interior and exterior design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="project5" class="container">
+    <div class="project-details">
+     
+      <img src="2.jpg.webp" alt="SOLAire Resort" style="width:100%; border-radius:8px; margin-bottom:15px;">
+      <h2>Mactan Cebu International Airport</h2>
+      <h3>Overview</h3>
+      <p>Mactan-Cebu International Airport (MCIA) is the Philippines’ second-largest airport. There is an ongoing construction of the new international Terminal 2 to supplement the existing Terminal 1. Upon completion of Terminal 2, the existing Terminal 1 will be entirely for domestic use. The expanded facility of MCIA elevates itself from a city airport to a world-class international hub serving as the primary gateway to the central Philippine region.</p>
+      <h3>Architect & Year</h3>
+      <p>Winston Shu, 2018.</p>
+      <h3>Features</h3>
+      <ul>
+        <li>Integrated Design Associates (IDA) Ltd.</li>
+        <li>. It is acclaimed as the world's first "resort airport", featuring a distinctive, wave-like, timber-arched roof inspired by the surrounding sea, designed to evoke a tropical, welcoming atmosphere. </li>
+        <li> The airport incorporates environmental features, including over 6,300 PV modules (solar panels) on the roof, generating 1.64 MW of power.</li>
       </ul>
     </div>
   </section>
